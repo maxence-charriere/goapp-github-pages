@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
-    .register("/app-worker.js")
+    .register("/goapp-github-pages/app-worker.js")
     .then(reg => {
       console.log("registering app service worker");
     })
@@ -40,7 +40,7 @@ if (!WebAssembly.instantiateStreaming) {
 
 const go = new Go();
 
-WebAssembly.instantiateStreaming(fetch("/web/app.wasm"), go.importObject)
+WebAssembly.instantiateStreaming(fetch("/goapp-github-pages/web/app.wasm"), go.importObject)
   .then(result => {
     const loaderIcon = document.getElementById("app-wasm-loader-icon");
     loaderIcon.className = "goapp-logo";
