@@ -8,8 +8,9 @@ import (
 
 func main() {
 	err := app.GenerateStaticWebsite("", &app.Handler{
-		Name:  "Github Pages Hello",
-		Title: "Github Pages Hello",
+		Name:      "Github Pages Hello",
+		Title:     "Github Pages Hello",
+		Resources: app.GitHubPages("goapp-github-pages"),
 	})
 
 	if err != nil {

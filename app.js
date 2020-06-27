@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
-    .register("/goapp-github-pages/app-worker.js")
+    .register("/app-worker.js")
     .then(reg => {
       console.log("registering app service worker");
     })
@@ -15,7 +15,7 @@ if ("serviceWorker" in navigator) {
 // -----------------------------------------------------------------------------
 // Init progressive app
 // -----------------------------------------------------------------------------
-const goappEnv = { "GOAPP_STATIC_RESOURCES_URL": "", "GOAPP_VERSION": "c185f1f154ee1c0eb6f8ad36faa0c3c8bd874bab" };
+const goappEnv = {"GOAPP_ROOT_PREFIX":"/goapp-github-pages","GOAPP_STATIC_RESOURCES_URL":"/goapp-github-pages","GOAPP_VERSION":"df87f18e837e9e66d7e76764278907926a6cdd55"};
 
 function goappGetenv(k) {
   return goappEnv[k];
