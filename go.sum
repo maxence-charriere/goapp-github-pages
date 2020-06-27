@@ -6,6 +6,8 @@ github.com/maxence-charriere/go-app/v7 v7.0.0-20200626202142-4164a24755b8 h1:n24
 github.com/maxence-charriere/go-app/v7 v7.0.0-20200626202142-4164a24755b8/go.mod h1:JTs+/Taw1Qz+NDOQsA0mQS0QuoEtD7kZuSpviWRKsjk=
 github.com/maxence-charriere/go-app/v7 v7.0.0-20200627144246-c012deefbb2b h1:xVGn9cg5qoCE6N3pmvxz3ukQwL3bvHAtZq+U8wLCODA=
 github.com/maxence-charriere/go-app/v7 v7.0.0-20200627144246-c012deefbb2b/go.mod h1:JTs+/Taw1Qz+NDOQsA0mQS0QuoEtD7kZuSpviWRKsjk=
+github.com/maxence-charriere/go-app/v7 v7.0.0-20200627145443-55a91b201336 h1:OittaZhXHOBfRlQuZycZgbXrWZ+dNGW1Fzp6CT2taEM=
+github.com/maxence-charriere/go-app/v7 v7.0.0-20200627145443-55a91b201336/go.mod h1:JTs+/Taw1Qz+NDOQsA0mQS0QuoEtD7kZuSpviWRKsjk=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5cxcmMvtA=
